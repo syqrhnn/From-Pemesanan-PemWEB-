@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Membuat Form Pemesanan</title>
+</head>
+<body background="background form2.jpg" text="white">
+    <h1 style="background-color:chocolate;" align="center">Yummy Fast Food</h1>
+    <table align="center">
+        <tr>
+            <td valign="bottom"><img src="burger.jpg" width="190" height="145"></td>
+            <td valign="bottom"><img src="kentang2.jpg" width="190" height="145"></td>
+            <td valign="bottom"><img src="pizza.jpg" width="190" height="145"></td>
+            <td valign="bottom"><img src="hotdog.jpg" width="190" height="145"></td>
+        </tr>
+        <tr>
+            <td><h2 style="background-color: chocolate;" align="center">Burger</h2></td>
+            <td><h2 style="background-color: chocolate;" align="center">Kentang Goreng</h2></td>
+            <td><h2 style="background-color: chocolate;" align="center">Pizza</h2></td>
+            <td><h2 style="background-color: chocolate;" align="center">Hot dog</h2></td>
+        </tr>
+    </table>
+    <div style="width: 70%;margin: auto;">
+        <div style="background-color: rgb(205, 105, 35);">
+            <form action="thankyou.html">
+                <table width="750">
+                    <h1 style="background-color: rgb(219, 99, 13);" align="center">Order Form</h1>
+                    <fieldset>
+                        <legend><b>Personal Information</b></legend>
+                        <label>Name:</label><input type="text" name="fname" maxlength="25" placeholder="Max 25 Characters" size="20">
+                        <label>E-Mail:</label><input type="text" name="email" maxlength="25" placeholder="Max 25 Characters" size="20">
+                        <label>Addres:</label><input type="text" name="addres" maxlength="25" placeholder="Max 25 Characters" size="20 ">
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend><b>Type Of Order</b></legend>
+                        <input type="radio" name="typeorder" value="out"/>Take away
+                        <input type="radio" name="typeorder" value="in"/>Dine in
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend><b>Beverages</b></legend>
+                        <select name="daftarmenu">
+                            <option value="dog">Burger</option>
+                            <option value="dog">Kentang Goreng</option>
+                            <option value="dog">Pizza</option>
+                            <option value="dog">Hot Dog</option>
+                        </select>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend><b>What drink do you like?</b></legend>
+                        <input type="checkbox" name="tambahpesanan" value="1">Iced Tea
+                        <input type="checkbox" name="tambahpesanan" value="1">Coffe Lionk
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend><b>Special Instructions</b></legend>
+                        <textarea name="Instructions" cols="40" rows="5" placeholder="Special Instructions"></textarea>
+                    </fieldset>
+                    <br>
+
+                    <input type="submit" value="SUBMIT ORDER">
+                    <input type="reset" value="TRY AGAIN">
+                    
+
+                    <details align="right">
+                        <summary><b>Contact Us!</b></summary>
+                        <p><button type="contact"><a href="mailto:syqrhnn@gmail.com">E-Mail</a></button></p>
+                        <p><button type="contact"><a href="https://www.instagram.com/syqrhnn_?igsh=MTgxdWpxNWQ5M2tqNg==">Instagram</a></button></p>
+                        <p><button type="contact"><a href="085947370503">Whatsapp</a></button></p>
+                    </details>
+                    <br>
+
+                </table>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
